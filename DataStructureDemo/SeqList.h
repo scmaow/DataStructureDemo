@@ -3,8 +3,8 @@
  * 
  * 2019/05/10
 */
-#ifndef LINEAR_LIST
-#define LINEAR_LIST
+#ifndef SEQ_LIST
+#define SEQ_LIST
 
 #include <iostream>
 
@@ -94,5 +94,5 @@ class SeqList {
 };
 
 
-#endif // !LINEAR_LIST
+#endif // !SEQ_LIST
 
