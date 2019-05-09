@@ -1,2 +1,3 @@
-# DataStructureDemo
+﻿# DataStructureDemo
 数据结构示例代码
+程序代码及思路来自于：数据结构（C语言版） 严蔚敏，吴伟民  清华大学出版社
