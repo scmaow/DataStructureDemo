@@ -24,7 +24,7 @@
     <ClCompile Include="DataStructureDemo.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="LinearList.cpp">
+    <ClCompile Include="SeqList.cpp">
       <Filter>源文件\LinearList</Filter>
     </ClCompile>
   </ItemGroup>

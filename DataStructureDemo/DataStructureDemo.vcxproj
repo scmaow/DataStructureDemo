@@ -148,7 +148,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DataStructureDemo.cpp" />
-    <ClCompile Include="LinearList.cpp" />
+    <ClCompile Include="SeqList.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SeqList.h" />

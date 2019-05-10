@@ -1,7 +1,7 @@
 /**
- * 线性表的顺序实现 顺序表
+ * 线性表的顺序实现 顺序表 Sequential List
  * 
- * 2019/05/10
+ * 05/10/2019
 */
 #ifndef SEQ_LIST
 #define SEQ_LIST
@@ -9,16 +9,11 @@
 #include <iostream>
 
 
-#define LIST_INIT_SIZE 100
-#define LIST_INCREMENT_SIZE 10
+#define LIST_INIT_SIZE 100       //顺序表存储空间初始分配量
+#define LIST_INCREMENT_SIZE 10   //顺序表存储空间的分配增量
 
 class SeqList {
-
-	int *ele;     //存储空间基址
-	int len;      //当前长度
-	int size;     //当前分配的存储容量
-
-
+public:
 	/**
 	 * 构造一个空的顺序表
 	 * 0 成功，-1 失败
@@ -53,7 +48,7 @@ class SeqList {
 	 * 返回顺序表中指定位置的元素
 	 *
 	*/
-	void get(int pos, int &ele);
+	void get(int pos, int &e);
 
 	/**
 	 * 返回顺序表中第一个与ele满足compare()的数据元素的位序
@@ -65,32 +60,35 @@ class SeqList {
 	 * 返回preEle的前驱元素
 	 *
 	*/
-	void prior(int ele, int &preEle);
+	void prior(int ele, int &preE);
 
 	/**
 	 * 返回nextEle的后继元素
 	 *
 	*/
-	void next(int ele, int &nextEle);
+	void next(int ele, int &nextE);
 
 	/**
 	 * 在指定位置插入元素
 	 *
 	*/
-	void insert(int pos, int ele);
+	int insert(int pos, int e);
 
 	/**
 	 * 删除指定位置的元素
 	 *
 	*/
-	void dele(int pos, int &ele);
+	int dele(int pos, int &e);
 
 	/**
-	 * 依次对顺序表中的元素调用vist()函数
+	 * 依次对顺序表中的元素调用visit()函数
 	 *
 	*/
-	void traverse(void vist());
+	void traverse(void visit());
 
+	int *ele;     //存储空间基址
+	int len;      //当前长度
+	int size;     //当前分配的存储容量
 };
 
 
