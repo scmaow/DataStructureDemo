@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{7F5C21AA-6324-41B4-9723-0BD9F5BA56F6}</ProjectGuid>
+    <ProjectGuid>{68324F17-D257-4B70-B507-EDD58DF84D0D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>DataStructureDemo</RootNamespace>
+    <RootNamespace>LinearList</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -147,7 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DataStructureDemo.cpp" />
+    <ClCompile Include="LinearList.cpp" />
     <ClCompile Include="SeqList.cpp" />
   </ItemGroup>
   <ItemGroup>

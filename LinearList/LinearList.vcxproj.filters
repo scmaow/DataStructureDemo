@@ -13,24 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="头文件\LinearList">
-      <UniqueIdentifier>{e731d506-2e8a-4fb2-a74c-a1ff3d5df088}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\LinearList">
-      <UniqueIdentifier>{5ea771a4-5ebf-4bb2-be19-aa9e373ea673}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DataStructureDemo.cpp">
+    <ClCompile Include="LinearList.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="SeqList.cpp">
-      <Filter>源文件\LinearList</Filter>
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SeqList.h">
-      <Filter>头文件\LinearList</Filter>
+      <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

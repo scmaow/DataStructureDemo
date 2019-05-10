@@ -34,7 +34,7 @@ public:
 
 	/**
 	 * 判断顺序表是否为空
-	 *
+	 * true 空，false 非空
 	*/
 	bool empty();
 
@@ -46,37 +46,37 @@ public:
 
 	/**
 	 * 返回顺序表中指定位置的元素
-	 *
+	 * 0 成功，-1 失败
 	*/
-	void get(int pos, int &e);
+	int get(int pos, int &e);
 
 	/**
-	 * 返回顺序表中第一个与ele满足compare()的数据元素的位序
-	 *
+	 * 返回顺序表中第一个与e满足compare()的数据元素的位序
+	 * 
 	*/
-	void locate(int ele, int comapre());
+	int locate(int e, bool(*compare)(int, int));
 
 	/**
-	 * 返回preEle的前驱元素
+	 * 返回e的前驱元素
 	 *
 	*/
-	void prior(int ele, int &preE);
+	int prior(int e, int &pre);
 
 	/**
-	 * 返回nextEle的后继元素
-	 *
+	 * 返回e的后继元素
+	 * 0 成功，-1 失败
 	*/
-	void next(int ele, int &nextE);
+	int next(int e, int &next);
 
 	/**
 	 * 在指定位置插入元素
-	 *
+	 * 0 成功，-1 失败
 	*/
 	int insert(int pos, int e);
 
 	/**
 	 * 删除指定位置的元素
-	 *
+	 * 0 成功，-1 失败
 	*/
 	int dele(int pos, int &e);
 
@@ -84,7 +84,7 @@ public:
 	 * 依次对顺序表中的元素调用visit()函数
 	 *
 	*/
-	void traverse(void visit());
+	void traverse(void(*visit)(int));
 
 	int *ele;     //存储空间基址
 	int len;      //当前长度
