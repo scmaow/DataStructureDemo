@@ -3,7 +3,6 @@
 *
 * 05/12/2019
 */
-#pragma once
 #ifndef SINGLY_LINKED_LIST_H
 #define SINGLY_LINKED_LIST_H
 

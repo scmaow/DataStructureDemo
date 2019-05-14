@@ -3,8 +3,8 @@
  * 
  * 05/10/2019
 */
-#ifndef SEQ_LIST
-#define SEQ_LIST
+#ifndef SEQ_LIST_H
+#define SEQ_LIST_H
 
 #include <iostream>
 
@@ -92,5 +92,5 @@ public:
 };
 
 
-#endif // !SEQ_LIST
+#endif // !SEQ_LIST_H
 
